@@ -1,0 +1,58 @@
+Configuration	Zadanie1
+STM32CubeMX 	6.14.0
+Date	10/31/2025
+MCU	STM32F205RGTx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PH0-OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PH1-OSC_OUT
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM3	Internal Clock	TIM3_VS_ClockSourceINT	VP_TIM3_VS_ClockSourceINT
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+5	PH0-OSC_IN	RCC_OSC_IN	
+6	PH1-OSC_OUT	RCC_OSC_OUT	
+21	PA5	GPIO_Output	DiodePA5
+PERIPHERALS	MODES	FUNCTIONS	PINS
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PH0-OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PH1-OSC_OUT
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM3	Internal Clock	TIM3_VS_ClockSourceINT	VP_TIM3_VS_ClockSourceINT
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+5	PH0-OSC_IN	RCC_OSC_IN	
+6	PH1-OSC_OUT	RCC_OSC_OUT	
+21	PA5	GPIO_Output	DiodePA5
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : Zadanie1
+Project Folder : C:\Users\Dell\STM32CubeIDE\workspace_1.18.0\Zadanie1
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_F2 V1.9.5
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
